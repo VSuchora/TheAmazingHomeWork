@@ -18,8 +18,9 @@ class ViewController: UIViewController {
         var title = String()
         var segue = String()
     }
-    var options: [option] = [option(title: "Recommended",
-                                    segue: "RecomenndedSegue"),
+    var options: [option] = [option(title: "Back To Main"),
+                             option(title: "Recommended",
+                                    segue: "RecommendedSegue"),
                              option(title: "Hottest",
                                     segue: "HottestSegue"),
                              option(title: "Most Viewed",
@@ -28,8 +29,6 @@ class ViewController: UIViewController {
                                     segue: "TopRatedSegue"),
                              option(title: "Popular Homemade",
                                     segue: "PopularHomemadeSegue"),
-                             option(title: "Recommended",
-                                    segue: "RecomenndedSegue"),
                              option(title: "Explore",
                                     segue: "ExploreSegue"),
                              option(title: "Playlists",
@@ -70,14 +69,19 @@ class ViewController: UIViewController {
     @IBAction func menuButton(_ sender: Any) {
         if menu == false {
             showMenu()
-            view.addBlur(style: .light)
-            view.bringSubviewToFront(containerView)
+            view.addBlur(style: .systemMaterialDark)
+            view.bringSubviewToFront(menuTableView)
             menu = true
         } else if menu == true {
             view.deleteBlur()
             hideMenu()
             menu = false
         }
+    }
+    @IBAction func tableVC(_ sender: Any) {
+            view.deleteBlur()
+            hideMenu()
+            view.bringSubviewToFront(containerView)
     }
     @IBAction func settingsButton(_ sender: Any) {
         let alert = UIAlertController(title: "Welcome To The Club Buddy", message: "What do you want to do?", preferredStyle: .actionSheet)
