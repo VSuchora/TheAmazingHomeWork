@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3BC7CB2896E26C00A23A7A /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3BC7CA2896E26C00A23A7A /* CustomCell.xib */; };
+		3E3BC7CD2896E27600A23A7A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3BC7CC2896E27600A23A7A /* CustomCell.swift */; };
 		3EE976342876D4E8007FB363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE976332876D4E8007FB363 /* AppDelegate.swift */; };
 		3EE976362876D4E8007FB363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE976352876D4E8007FB363 /* SceneDelegate.swift */; };
 		3EE976382876D4E8007FB363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE976372876D4E8007FB363 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E3BC7CA2896E26C00A23A7A /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3E3BC7CC2896E27600A23A7A /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		3EE976302876D4E8007FB363 /* TheAmazingHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheAmazingHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE976332876D4E8007FB363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE976352876D4E8007FB363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				3EE976352876D4E8007FB363 /* SceneDelegate.swift */,
 				3EE976372876D4E8007FB363 /* ViewController.swift */,
 				3EE976392876D4E8007FB363 /* Main.storyboard */,
+				3E3BC7CC2896E27600A23A7A /* CustomCell.swift */,
+				3E3BC7CA2896E26C00A23A7A /* CustomCell.xib */,
 				3EE9763C2876D4E9007FB363 /* Assets.xcassets */,
 				3EE9763E2876D4E9007FB363 /* LaunchScreen.storyboard */,
 				3EE976412876D4E9007FB363 /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				3EE976402876D4E9007FB363 /* LaunchScreen.storyboard in Resources */,
 				3EE9763D2876D4E9007FB363 /* Assets.xcassets in Resources */,
+				3E3BC7CB2896E26C00A23A7A /* CustomCell.xib in Resources */,
 				3EE9763B2876D4E8007FB363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				3EE976382876D4E8007FB363 /* ViewController.swift in Sources */,
 				3EE976342876D4E8007FB363 /* AppDelegate.swift in Sources */,
+				3E3BC7CD2896E27600A23A7A /* CustomCell.swift in Sources */,
 				3EE976362876D4E8007FB363 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
