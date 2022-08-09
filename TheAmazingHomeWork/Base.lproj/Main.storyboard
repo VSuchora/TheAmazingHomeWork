@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,35 +14,15 @@
                     <view key="view" contentMode="scaleToFill" id="hRz-zL-tlx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nkr-t8-N0y">
-                                <rect key="frame" x="0.0" y="44" width="390" height="717"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="tCC-WA-bQH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="nkr-t8-N0y" firstAttribute="top" secondItem="tCC-WA-bQH" secondAttribute="top" id="1qo-pT-t2r"/>
-                            <constraint firstItem="nkr-t8-N0y" firstAttribute="leading" secondItem="tCC-WA-bQH" secondAttribute="leading" id="5mC-9e-xFD"/>
-                            <constraint firstItem="tCC-WA-bQH" firstAttribute="bottom" secondItem="nkr-t8-N0y" secondAttribute="bottom" id="Trb-ut-PYD"/>
-                            <constraint firstItem="tCC-WA-bQH" firstAttribute="trailing" secondItem="nkr-t8-N0y" secondAttribute="trailing" id="VFs-AK-BZl"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="tableView" destination="nkr-t8-N0y" id="RX7-ns-boK"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="248" y="149"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
