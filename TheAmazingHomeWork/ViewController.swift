@@ -27,12 +27,12 @@ class ViewController: UIViewController, AVAudioRecorderDelegate{
                     if allowed {
                         self.loadRecordingUI()
                     } else {
-                        // failed to record!
+                        print("REC is g00d")
                     }
                 }
             }
         } catch {
-            // failed to record!
+            print("Error")
         }
     }
     
